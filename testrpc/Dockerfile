@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6.9.2
+FROM mhart/alpine-node:latest
 
 RUN apk add --no-cache make gcc g++ python git bash
 RUN npm install -g ethereumjs-testrpc
